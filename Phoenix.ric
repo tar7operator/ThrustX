@@ -1,0 +1,46 @@
+data:
+  config:
+    ambPressure: 101324.99674500001
+    burnoutThrustThres: 0.1
+    burnoutWebThres: 2.5400050800101604e-05
+    mapDim: 750
+    maxMassFlux: 1406.4697609001405
+    maxPressure: 17237500.000000004
+    minPortThroat: 2.0
+    timestep: 0.03
+  grains:
+  - properties:
+      coreDiameter: 0.025400050800101603
+      diameter: 0.04927609855219711
+      finLength: 0.0038100076200152403
+      finWidth: 0.0038100076200152403
+      inhibitedEnds: Neither
+      length: 0.20320040640081283
+      numFins: 6
+    type: Finocyl
+  nozzle:
+    convAngle: 30.0
+    divAngle: 15.0
+    efficiency: 0.85
+    erosionCoeff: 0.0
+    exit: 0.031120980441960888
+    slagCoeff: 0.0
+    throat: 0.01778003556007112
+    throatLength: 0.0025400050800101605
+  propellant:
+    density: 1799.9961248141985
+    name: Nakka - KNSU
+    tabs:
+    - a: 0.00010073115141607291
+      k: 1.133
+      m: 41.98
+      maxPressure: 10342500.000000002
+      minPressure: 0.0
+      n: 0.319
+      t: 1720.0
+type: !!python/object/apply:uilib.fileIO.fileTypes
+- 3
+version: !!python/tuple
+- 0
+- 5
+- 0
